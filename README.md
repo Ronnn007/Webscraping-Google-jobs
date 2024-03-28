@@ -14,8 +14,12 @@ Below are the areas of the webpage that we are interested in. Since this is a dy
 In order to extract the most relevant information, here is the overall walkthrough of this script:
 1. As the page is scrolled, it loads new Job cards dynamically. (Area 1)
 2. However, there are already 10 preloaded Job cards. First, we count the 10 preloaded Job cards and then perform additional scrolling to load new cards.
-3. As we traverse through each job card, a clicking functionality is performed which loads the Job information (Area 2). Here the first advertised job board in extracted. Secondly, the base salary is checked (available at the top below the advertised job sites). If this is available, then it is extracted else a typical salary range is extracted (available at the bottom). If there isn't any salary information, then 0 is placed for this job entry. Next, Job descriptions are extracted, expanding the full description button. 
-4. Until there are no new cards left to load, we continue repeating these actions. (On average, each job search query loads about 150 jobs).
+3. As we traverse through each job card, a clicking functionality is performed which loads the Job information (Area 2).
+   * First the advertised job board is extracted.
+   * Secondly, the base salary is checked (available at the top below the advertised job sites). If this is available, then it is extracted else a typical salary range is extracted (available at the bottom).
+   * If there isn't any salary information, then 0 is placed for this job entry.
+   * Next, Job descriptions are extracted, expanded by clicking the full description button. 
+5. Until there are no new cards left to load, we continue repeating these actions. (On average, each job search query loads about 150 jobs).
 
 ### Data to be extracted
 [Job Title,
