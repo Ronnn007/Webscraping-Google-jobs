@@ -1,5 +1,4 @@
 # Web Scraping-Google-jobs
-Web scraping jobs form google/jobs using Selenium and Python
 Using the Selenium automation library paired with Python, this task was accomplished
 ### Goals & Scope
 The overall goal for this project is to understand and visualise the current Job search market in Tech and AI. Which is at a rather over-saturated stage at the moment, especially for the entry-level positions. This project is only the first stage towards understanding this data and additional correlated information is certainly to be considered in the future.
